@@ -51,7 +51,7 @@ plt.axis('off')
 ```
 
 # Create the structuring element
-```
+```python
 kernel = cv2.getStructuringElement(cv2.MORPH_CROSS,(7,7))
 ```
 
